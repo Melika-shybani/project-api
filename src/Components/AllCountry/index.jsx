@@ -29,7 +29,7 @@ export default function AllCountry({DarkMode}) {
 
   return (
     <>
-        <div className='w-[92%] flex items-center justify-between m-auto p-4 flex-wrap  gap-5'>
+        <div className='w-[92%] flex items-center justify-between m-auto p-8 flex-wrap  gap-5'>
             <div className="relative w-full max-w-md ">
                 <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-gray-400">
                   <IoSearch/>

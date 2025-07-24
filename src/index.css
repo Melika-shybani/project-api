@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+body {
+  @apply bg-veryLightGray text-veryDarkBlueText transition-all duration-300;
+}
+
+.dark body {
+  @apply bg-veryDarkBlueBg text-pureWhite;
+}
