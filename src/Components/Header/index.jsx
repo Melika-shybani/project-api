@@ -4,7 +4,7 @@ export default function Header({DarkMode,setDarkMode}) {
 
   return (
     <>
-    <div className='flex justify-between  lg:px-16  px-8 py-5  shadow-2xl'>
+    <div className='flex justify-between  lg:px-16  px-8 py-5  shadow-xl'>
 
        <h2 className={`font-bold lg:text-[24px] xs:text-[20px] ${DarkMode ?'text-pureWhite':'text-veryDarkBlueText'}`}>where in the world?</h2>
        
